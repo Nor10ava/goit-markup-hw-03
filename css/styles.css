@@ -60,7 +60,7 @@ p {
 
 body {
   font-family: Roboto, sans-serif;
-  background-color: var(--primary-background-color--);
+  /*background-color: var(--primary-background-color--);*/
   color: var(--primary-title-color--);
   letter-spacing: 0.03em;
   font-size: 14px;
@@ -171,9 +171,7 @@ img {
   /*margin-left: auto;
   margin-right: auto;*/
 }
-.container .hero {
-  display: block;
-}
+
 .main-button {
   font-weight: bold;
   font-size: 16px;
@@ -218,6 +216,12 @@ img {
   margin-top: -30px;
   margin-left: -30px;*/
 }
+.letters .list {
+  display: flex;
+}
+.text-section {
+  background-color: var(--header-color--);
+}
 .paragraph-title {
   font-weight: bold;
   line-height: 1.14;
@@ -227,6 +231,9 @@ img {
 }
 .letter-item:not(:last-child) {
   margin-right: 30px;
+}
+.letter-item {
+  width: 270px;
 }
 .text {
   line-height: 1.7;
@@ -283,8 +290,6 @@ img {
 }
 .foot {
   background-color: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 .logo-foot {
   color: white;
@@ -308,6 +313,7 @@ img {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
+  /*display: block;*/
 }
 .link-adress:not(:last-child) {
   padding-bottom: 9px;
@@ -315,6 +321,11 @@ img {
 .foot-nav {
   font-style: normal;
   font-weight: normal;
+  /*display: block;*/
+}
+.foot .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .location {
   color: var(--header-color--);
@@ -322,12 +333,15 @@ img {
 .filters {
   text-align: center;
   justify-content: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  /*padding-bottom: 56px;*/
 }
 .filt {
   justify-content: center;
   display: flex;
-  margin-top: 100px;
-  margin-bottom: 56px;
+  /*margin-top: 100px;*/
+  margin-bottom: 50px;
 }
 .filt-button:not(:last-child) {
   margin-right: 9px;
@@ -359,21 +373,24 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  position: absolute;
   margin-bottom: 4px;
+  /*margin-top: 20px;*/
 }
 .square {
-  padding-right: 24px;
+  /*padding-right: 24px;
   padding-left: 24px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 20px;*/
+  padding: 20px 24px;
+  /*border: 1px solid #eeeeee;*/
+  text-align: initial;
 }
 .portfolio-item {
   background-color: #ffffff;
   width: 370px;
-  height: 404px;
+  /*height: 404px;*/
   border: 1px solid #eeeeee;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   margin-right: 30px;
   margin-bottom: 30px;
   flex-basis: ((100% - 90px) / 3);
@@ -384,12 +401,11 @@ img {
   justify-content: center;
   margin-right: -30px;
   margin-bottom: -30px;
-  padding-bottom: 94px;
+  /*padding-bottom: 94px;*/
 }
 .prof {
   font-size: 16px;
   line-height: 1.9;
   color: var(--text--color--);
-  position: absolute;
-  margin-top: 40px;
+  /*margin-bottom: 20px;*/
 }
