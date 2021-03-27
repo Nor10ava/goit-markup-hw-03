@@ -290,6 +290,8 @@ img {
 }
 .foot {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-foot {
   color: white;
@@ -323,10 +325,7 @@ img {
   font-weight: normal;
   /*display: block;*/
 }
-.foot .container {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
+
 .location {
   color: var(--header-color--);
 }
